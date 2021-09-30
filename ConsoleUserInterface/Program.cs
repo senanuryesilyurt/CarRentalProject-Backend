@@ -1,4 +1,5 @@
 ﻿using Business.Concrete;
+using DataAccess.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
@@ -12,8 +13,9 @@ namespace ConsoleUserInterface
     {
         static void Main(string[] args)
         {
-            CarTest();
+            //CarTest();
 
+         
         }
 
         private static void CarTest()
@@ -35,12 +37,12 @@ namespace ConsoleUserInterface
             //carManager.Delete(newCar);
 
 
-            Console.WriteLine("-------- CAR LIST ---------");
-            foreach (var car in carManager.GetCarDetails())
-            {
-                Console.WriteLine("Car Name: {0}\nBrand Name: {1}\nColor Name: {2}\nDaily Price: {3}", car.CarName, car.BrandName, car.ColourName, car.DailyPrice);
-                Console.WriteLine("--------------------------------");
-            }
+            //Console.WriteLine("-------- CAR LIST ---------");
+            //foreach (var car in carManager.GetCarDetails())
+            //{
+            //    Console.WriteLine("Car Name: {0}\nBrand Name: {1}\nColor Name: {2}\nDaily Price: {3}", car.CarName, car.BrandName, car.ColourName, car.DailyPrice);
+            //    Console.WriteLine("--------------------------------");
+            //}
         }
     }
 }

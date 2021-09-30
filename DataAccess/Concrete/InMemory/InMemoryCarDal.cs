@@ -47,8 +47,12 @@ namespace DataAccess.Concrete.InMemory
         {
             throw new NotImplementedException();
         }
+        public List<Car> GetByFilter(string brandName, string colorName)
+        {
+            throw new NotImplementedException();
+        }
 
-        public List<CarDetailDto> GetCarDetails()
+        public List<CarDetailDto> GetCarDetailsById(int carId)
         {
             throw new NotImplementedException();
         }

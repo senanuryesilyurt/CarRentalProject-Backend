@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\ConsoleUserInterface\\ConsoleUserInterface.csproj": {}
+    "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\ConsoleUserInterface\\ConsoleUserInterface.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
+    "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Entities\\Entities.csproj"
               }
             }
           }
@@ -47,6 +47,38 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.TestPlatform.ObjectModel": {
+              "target": "Package",
+              "version": "[16.9.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -68,14 +100,14 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\ConsoleUserInterface\\ConsoleUserInterface.csproj": {
+    "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\ConsoleUserInterface\\ConsoleUserInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\ConsoleUserInterface\\ConsoleUserInterface.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\ConsoleUserInterface\\ConsoleUserInterface.csproj",
         "projectName": "ConsoleUserInterface",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\ConsoleUserInterface\\ConsoleUserInterface.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\ConsoleUserInterface\\ConsoleUserInterface.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\ConsoleUserInterface\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\ConsoleUserInterface\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,14 +124,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Business\\Business.csproj"
+              "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Business\\Business.csproj"
               },
-              "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Entities\\Entities.csproj"
               }
             }
           }
@@ -132,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -168,6 +200,22 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.11, )"
@@ -177,6 +225,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             }
           },
           "imports": [
@@ -193,14 +245,14 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -217,11 +269,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Core\\Core.csproj"
               },
-              "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Entities\\Entities.csproj"
               }
             }
           }
@@ -261,14 +313,14 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -285,8 +337,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\RentalCarProjectBackend\\Core\\Core.csproj"
               }
             }
           }
