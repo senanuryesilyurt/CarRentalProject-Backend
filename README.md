@@ -20,3 +20,6 @@ Bir araç kiralama sitesi arka yüzü gerçeklenmiştir.
 + Site içerisinde girilen ifadeye göre (sözcük, harf vb.) arama işlemi gerçekleştirilmiştir.
 + Araç bilgileri listelenmiştir.
 + Seçilen araç ile ilgili daha detaylı bilgi ve kiralama işlemi için araç detay bölümü gerçeklenmiştir.
++ Veritabanı tasarımı Database First yaklaşımı oluşturulmuştur.
++ Rol bazlı yetkilendirme işlemi gerçeklenmiştir.
++ Caching, Performance, Validation ve Transaction işlemleri gerçeklenmiştir.
